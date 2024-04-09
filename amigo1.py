@@ -17,7 +17,7 @@ class YearEndOverview:
             self.yearlyprofits.append(profit)
             print(profit)
     
-    def display_transactions(self):
+    def display_profits(self):
         pprint.pprint(self.yearlyprofits)
 
     def check_profit(self):
@@ -34,7 +34,7 @@ class YearEndOverview:
 
 overview = YearEndOverview(2000)
 overview.calculate_yearly_profit()
-overview.display_transactions()
+overview.display_profits()
 overview.check_profit()
 
 
